@@ -1,0 +1,8 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #f8fafc; font-family: 'Plus Jakarta Sans', sans-serif; -webkit-font-smoothing: antialiased; overflow: hidden; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+input, select, textarea { font-family: 'Plus Jakarta Sans', sans-serif; }
+input::placeholder, textarea::placeholder { color: #94a3b8; }
+@media (max-width: 768px) { .desk-sidebar { display: none !important; } .desk-topbar { display: none !important; } .mob-header { display: flex !important; } .main-pad { padding: 1rem !important; } }
+@media (min-width: 769px) { .mob-header { display: none !important; } .mob-overlay { display: none !important; } }
